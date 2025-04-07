@@ -1,0 +1,35 @@
+body {
+    margin: 0;
+    padding: 50px 100px;
+    background-color:rgba(75, 74, 239, 1) ;
+}
+header {
+    display: flex; 
+    background-color:rgba(75, 74, 239, 1);
+    justify-content: space-between;
+    align-items: center;
+    padding: 0px 0;
+}
+.menu_nav{ 
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+}
+.menu_list{
+    display: flex;
+    gap: 30px;
+    align-items: center;
+    padding: 0;
+    margin: 0;
+}
+.menu_login_entrar{
+    display: flex;
+}
+a{
+    text-decoration: none;
+    color: white;
+}
+li{
+    list-style-type: none;
+}
