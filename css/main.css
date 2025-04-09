@@ -1,0 +1,43 @@
+main {
+    display: flex;
+    justify-content: right;
+    align-items: center
+    
+}
+.galera_img{
+    margin-top: 50px;
+}
+.bem_vindo_container{
+    margin-right: auto;
+  
+}
+.bem_vindo_button{
+    background-color:white ;
+    cursor: pointer;
+    color: black;
+    border: 1px solid white;
+    border-radius: 4px;
+    padding: 10px 25px;
+    font-size: 20px;
+}
+.bem_vindo_button:hover,.eu_quero_button:hover {
+    background-color:rgba(75, 74, 239, 1) ;
+    border-color: #FFCA1D;
+}
+.bem_vindo_texto{
+    font-size: 64px;
+    color: white;
+}
+.linha_azul{
+    width: 65px;
+    height: 5px; 
+    background-color: #FFCA1D; 
+    border-radius: 10px; 
+
+}
+.bem_vindo_texto_parag{
+    font-size: 30px;
+    color: white;
+    line-height: 1.5;
+}
+
