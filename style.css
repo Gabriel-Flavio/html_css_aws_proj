@@ -1,6 +1,7 @@
 body, html {
     margin: 0;
-    padding: 50px 100px;
+    padding: 20px 100px;
+    border: 0;
     background-color:rgba(75, 74, 239, 1) ;
     height: 100%
 }

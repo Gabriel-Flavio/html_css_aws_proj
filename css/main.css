@@ -1,15 +1,15 @@
 main {
     display: flex;
     justify-content: right;
-    align-items: center
-    
+    align-items: center;
+    padding-top: 100px;
 }
 .galera_img{
-    margin-top: 50px;
+    margin-bottom: auto;
 }
 .bem_vindo_container{
     margin-right: auto;
-  
+    padding-top: 50px;
 }
 .bem_vindo_button{
     background-color:white ;
@@ -20,6 +20,9 @@ main {
     padding: 10px 25px;
     font-size: 20px;
 }
+.eu_quero_button{
+    font-size: 20px;
+}
 .bem_vindo_button:hover,.eu_quero_button:hover {
     background-color:rgba(75, 74, 239, 1) ;
     border-color: #FFCA1D;
@@ -27,17 +30,18 @@ main {
 .bem_vindo_texto{
     font-size: 64px;
     color: white;
+    margin: 20px 0px;
 }
 .linha_azul{
     width: 65px;
     height: 5px; 
     background-color: #FFCA1D; 
     border-radius: 10px; 
-
 }
 .bem_vindo_texto_parag{
     font-size: 30px;
     color: white;
     line-height: 1.5;
+    margin: 20px 0px;;
 }
 
