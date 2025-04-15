@@ -1,21 +1,16 @@
 main {
     display: flex;
-    justify-content: right;
     align-items: center;
     padding-top: 100px;
 }
 .galera_img{
     margin-bottom: auto;
 }
-.bem_vindo_container{
-    margin-right: auto;
-    padding-top: 50px;
-}
 .bem_vindo_button{
     background-color:white ;
     cursor: pointer;
     color: black;
-    border: 1px solid white;
+    border: none;
     border-radius: 4px;
     padding: 10px 25px;
     font-size: 20px;
@@ -23,9 +18,11 @@ main {
 .eu_quero_button{
     font-size: 20px;
 }
-.bem_vindo_button:hover,.eu_quero_button:hover {
-    background-color:rgba(75, 74, 239, 1) ;
-    border-color: #FFCA1D;
+.eu_quero_button:hover {
+    background-color:#ffca1da2 ;
+}
+.bem_vindo_button:hover{
+    background-color: rgba(255, 255, 255, 0.671);
 }
 .bem_vindo_texto{
     font-size: 64px;
@@ -43,5 +40,13 @@ main {
     color: white;
     line-height: 1.5;
     margin: 20px 0px;;
+}
+.eu_quero_button{ 
+    background-color:#FFCA1D ;
+    cursor: pointer;
+    color: black;
+    border-radius: 4px;
+    padding: 15px 35px;
+    border: none;
 }
 
